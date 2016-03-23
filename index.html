@@ -43,6 +43,7 @@
   <li><a href="http://bl.ocks.org/mbostock">Mike Bostock's Source Code Examples</a>: Great Learning Resource!!!
       <ul>
         <li><a href="https://bl.ocks.org/mbostock/3808234">D3's Update Pattern</a>: Enter, Update and Exit (good links within!)</li>
+        <li><a href="http://mshenfield.github.io/schoolbudget.phl.io/">Code for Nashville Demo by Max ShenField</a>: with <a href="https://github.com/mshenfield/schoolbudget.phl.io">Source Code!</a></li>
         <li><a href="http://bl.ocks.org/mbostock/9744818">Coastal Distance</a></li>
         <li><a href="http://bl.ocks.org/mbostock/9748706">Coastal Distance -- with Rainbows!</a></li>
         <li><a href="http://bl.ocks.org/mbostock/b07f8ae91c5e9e45719c">Rainbow Pack</a>: a version 4 demo</li>
@@ -54,68 +55,30 @@
       </li>
   <li><a href="https://bost.ocks.org/mike/selection/">The MOST important PAGE about D3</a></li>
 </ul>
-  
-  Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
+ 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>D3 Foundations</h3>
 
-
-joins — https://bost.ocks.org/mike/join/
-selections — 
-
-d3js.org
-
-https://github.com/mshenfield/schoolbudget.phl.io
-http://mshenfield.github.io/schoolbudget.phl.io/
-
-d3 demo
-
- — tlm
- — tracker
- — todo_mvc
- — kodama
-
-svg intro
-
-   g
-   rect
-   circle
-   path
-
-   inspector fun
-
-d3 basics
-
-   method chaining
-   objects as configurable functions (functions are objects)
-
-   select
-   vs selectAll
-
-   enter update enter+update exit
-
-
-bl.ocks.org
-
-
-
-
-
-
-
-
-account
-accountFolder
-survey
-surveyFolder
-question
-
-
-
- getObjectId(‘survey’);
-
-createSurveyDoc() — return key
+<p>To play with D3, there are a couple main concepts to explore.</p>
+<ul>
+  <li>SVG Tags -- like HTML for shapes
+    <ul>
+      <li>g is like the div for everything</li>
+      <li>text tags are needed are text -- tagless stuff doesn't work</li>
+      <li>rect (rectangle)</li>
+      <li>circle</li>
+      <li>path is for lines, the 'd' attribute contains instructions (data) used to build the line</li>
+      <li>style things with strokes and fills</li>
+    </ul>
+  </li>
+  
+  <li>Selections -- like jQuery, but just different enough to cause massive pain and confusion</li>
+  <li>Method Chaining -- most methods return the selection they act on</li>
+  <li>Functions are used as configurable objects all over the place</li>
+  <li>Enter, Update and Exit</li>
+  <li>Select (does not change bindings) vs SelectAll (creates a data bound selection)</li>  
+  
+</ul>
 
 
 
